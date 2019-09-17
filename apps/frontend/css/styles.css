@@ -1,0 +1,20 @@
+.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 35px;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.full-area {
+  background-color: #D3D3D3;
+  padding-top: 2%;
+}
+.quote {
+  margin-top: 3%;
+  margin-bottom: 2%;
+  border-style: solid;
+  background-color: white;
+  font-size: 30px;
+}
