@@ -15,7 +15,7 @@ const app = new Vue({
       const url = '/random-quote';
       fetch(url)
         .then(response => response.json())
-        .then(json => {
+        .then((json) => {
           this.quoteText = json.text;
           this.quoteAuthor = json.author;
         });
